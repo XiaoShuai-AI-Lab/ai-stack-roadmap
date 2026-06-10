@@ -43,6 +43,9 @@ This episode is being prepared for public release.
 | References | Draft available in [`references.md`](./references.md) |
 | Glossary | Draft available in [`glossary.md`](./glossary.md) |
 
+Do not publish final PDFs or diagrams before adding XiaoShuai AI Lab
+watermarks. See the repository-level [Publishing Policy](../../PUBLISHING_POLICY.md).
+
 ## Planned Files
 
 ```text
@@ -72,4 +75,3 @@ notes/
    ```text
    input -> processing -> output -> feedback -> closed loop
    ```
-

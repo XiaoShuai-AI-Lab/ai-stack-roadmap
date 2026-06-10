@@ -51,6 +51,9 @@ MLOps、LLMOps、GenAIOps 到底有什么区别？
 | Reference | 见 [`references.md`](./references.md) |
 | 术语表 | 见 [`glossary.md`](./glossary.md) |
 
+最终 PDF 和核心图暂不发布。发布前必须加 `小帅AI Lab` 半透明水印和仓库地址，并完成版权/隐私检查。见仓库级
+[Publishing Policy](../../PUBLISHING_POLICY.md)。
+
 ## 计划放入的文件
 
 ```text
@@ -92,4 +95,3 @@ notes/
 可治理
 可持续改进
 ```
-

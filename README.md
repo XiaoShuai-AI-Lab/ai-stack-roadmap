@@ -25,6 +25,9 @@ Each episode will gradually publish the clean public artifacts behind a video:
 - glossary entries;
 - follow-up reading paths.
 
+Public PDFs and diagrams are published only after watermarking and rights
+review. See [Publishing Policy](./PUBLISHING_POLICY.md).
+
 ## Start Here
 
 ### Episode 001: MLOps -> LLMOps -> GenAIOps
@@ -75,6 +78,8 @@ ai-stack-roadmap/
 - Visual and operational, not only conceptual.
 - Public artifacts only: no private notes, raw recordings, cookies, tokens,
   copyrighted clips, or unlicensed copied material.
+- Public slide PDFs and diagrams must include XiaoShuai AI Lab attribution and
+  the repository address.
 
 ## About
 
@@ -82,4 +87,3 @@ Created by **XiaoShuai AI Lab**.
 
 - GitHub: <https://github.com/XiaoShuai-AI-Lab>
 - Course series: AI Stack: from applications to infrastructure
-

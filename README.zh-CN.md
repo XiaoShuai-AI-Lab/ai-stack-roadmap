@@ -24,6 +24,9 @@
 - 术语表；
 - 延伸阅读路径。
 
+公开 PDF 和核心图必须先完成水印、署名和版权/隐私检查，再发布。规则见
+[Publishing Policy](./PUBLISHING_POLICY.md)。
+
 ## 从这里开始
 
 ### 第 001 期：MLOps -> LLMOps -> GenAIOps
@@ -46,7 +49,9 @@
 ```text
 视频发布
   -> 导出 PPT PDF
+  -> 给 PDF 加小帅AI Lab 半透明水印
   -> 导出核心图
+  -> 给核心图加小帅AI Lab 半透明水印
   -> 写 key takeaways
   -> 清理 references
   -> 补 glossary
@@ -84,6 +89,7 @@ ai-stack-roadmap/
 - 有来源支撑，不做链接堆。
 - 讲真实生产链路，不只讲概念百科。
 - 只放公开安全材料：不放原始录屏、私密备注、Cookie、Token、版权不清楚的视频片段或完整复制的第三方内容。
+- 对外 PDF 和核心图都要带 `小帅AI Lab` 与 GitHub 仓库地址水印，方便资料被转发后仍能找到来源。
 
 ## 关于
 
@@ -91,4 +97,3 @@ Created by **小帅AI Lab**.
 
 - GitHub: <https://github.com/XiaoShuai-AI-Lab>
 - B 站合集建议名：AI Stack：从应用到基础设施
-
