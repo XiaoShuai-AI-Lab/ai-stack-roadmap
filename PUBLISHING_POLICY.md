@@ -14,7 +14,7 @@ checks:
    private chat logs.
 3. Public references are links and short notes, not full copied third-party
    content.
-4. PDF and image artifacts include XiaoShuai AI Lab attribution and discovery
+4. PDF and image artifacts include 小帅AI实验室 / XiaoShuai AI Lab attribution and discovery
    paths.
 
 ## Watermark Standard
@@ -23,13 +23,13 @@ Every public slide PDF and diagram image should contain a subtle attribution
 watermark:
 
 ```text
-小帅AI Lab · github.com/XiaoShuai-AI-Lab/ai-stack-roadmap
+小帅AI实验室 · github.com/XiaoShuai-AI-Lab/ai-stack-roadmap
 ```
 
 Optional second-line variants for larger pages:
 
 ```text
-Bilibili / YouTube: 小帅AI Lab
+Bilibili / 微信视频号 / YouTube: 小帅AI实验室
 AI Stack: from applications to infrastructure
 ```
 
@@ -73,7 +73,7 @@ For final videos, add the repository address and brand mark on normal PPT pages:
 
 ```text
 github.com/XiaoShuai-AI-Lab/ai-stack-roadmap
-小帅AI Lab
+小帅AI实验室
 ```
 
 Exclusions:
@@ -110,4 +110,3 @@ For each episode:
 
 Episode 001 is in skeleton mode. Do not publish its final slide PDF or key
 diagrams until watermarking and rights review are complete.
-

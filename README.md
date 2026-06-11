@@ -2,7 +2,8 @@
 
 [中文](./README.zh-CN.md)
 
-AI Stack Roadmap is a public course and artifact hub by **XiaoShuai AI Lab**.
+AI Stack Roadmap is a public course and artifact hub by **小帅AI实验室**
+(XiaoShuai AI Lab).
 
 The goal is not to collect AI buzzwords. The goal is to trace real production
 paths and make modern AI systems easier to understand:
@@ -83,7 +84,7 @@ ai-stack-roadmap/
 
 ## About
 
-Created by **XiaoShuai AI Lab**.
+Created by **小帅AI实验室** / **XiaoShuai AI Lab**.
 
 - GitHub: <https://github.com/XiaoShuai-AI-Lab>
 - Course series: AI Stack: from applications to infrastructure
