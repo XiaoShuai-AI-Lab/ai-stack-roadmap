@@ -39,12 +39,15 @@ This episode is being prepared for public release.
 | Video link | To be added after publishing |
 | Slide PDF | To be exported after final recording |
 | Key diagrams | To be exported as clean PNGs |
-| Speaker notes | To be cleaned before publishing |
 | References | Draft available in [`references.md`](./references.md) |
 | Glossary | Draft available in [`glossary.md`](./glossary.md) |
 
 Do not publish final PDFs or diagrams before adding XiaoShuai AI Lab
 watermarks. See the repository-level [Publishing Policy](../../PUBLISHING_POLICY.md).
+
+This repository publishes viewer-facing public course artifacts only. Do not
+publish speaker notes, recording prompts, internal strategies, prompt files, ASR
+drafts, editing workbench files, or Creator OS production assets.
 
 ## Planned Files
 
@@ -60,7 +63,6 @@ diagrams/
 
 notes/
   key-takeaways.zh-CN.md
-  speaker-notes-clean.zh-CN.md
 ```
 
 ## What Viewers Should Take Away

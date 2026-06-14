@@ -47,12 +47,13 @@ MLOps、LLMOps、GenAIOps 到底有什么区别？
 | 视频链接 | 发布后补充 |
 | PPT PDF | 录制版稳定后导出 |
 | 核心图 PNG | 从最终 PPT 中导出公开安全版 |
-| 清洁版口播稿 | 需要去掉录制提示和内部备注 |
 | Reference | 见 [`references.md`](./references.md) |
 | 术语表 | 见 [`glossary.md`](./glossary.md) |
 
 最终 PDF 和核心图暂不发布。发布前必须加 `小帅AI Lab` 半透明水印和仓库地址，并完成版权/隐私检查。见仓库级
 [Publishing Policy](../../PUBLISHING_POLICY.md)。
+
+本仓库只发布观众可见的公开视频资料，不发布口播稿、录制提示、内部策略、提示词、ASR 中间稿、剪辑工程或 Creator OS 生产资产。
 
 ## 计划放入的文件
 
@@ -68,7 +69,6 @@ diagrams/
 
 notes/
   key-takeaways.zh-CN.md
-  speaker-notes-clean.zh-CN.md
 ```
 
 ## 观众应该带走什么
