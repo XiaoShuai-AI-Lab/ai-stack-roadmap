@@ -23,9 +23,9 @@ Instead of collecting buzzwords, the course traces the production path: how appl
 
 ## Latest Episode
 
-| Episode | Topic | Materials |
-| --- | --- | --- |
-| 001 | [MLOps -> LLMOps -> GenAIOps](./episodes/001-mlops-llmops-genaiops/README.md) | [PDF](./episodes/001-mlops-llmops-genaiops/ai-stack-001-mlops-llmops-genaiops.pdf) · [References](./episodes/001-mlops-llmops-genaiops/references.md) |
+| Episode | Topic | Video | Materials |
+| --- | --- | --- | --- |
+| 001 | [MLOps -> LLMOps -> GenAIOps](./episodes/001-mlops-llmops-genaiops/README.md) | [Bilibili](https://www.bilibili.com/video/BV1GjJK6sESN) · [YouTube](https://www.youtube.com/watch?v=RSuxSb8KbSA) | [PDF](./episodes/001-mlops-llmops-genaiops/ai-stack-001-mlops-llmops-genaiops.pdf) · [References](./episodes/001-mlops-llmops-genaiops/references.md) |
 
 Episode 001 explains the evolution across three production disciplines:
 

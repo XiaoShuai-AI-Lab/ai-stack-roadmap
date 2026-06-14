@@ -14,6 +14,8 @@ MLOps -> LLMOps -> GenAIOps
 
 | 资料 | 说明 |
 | --- | --- |
+| [B站视频](https://www.bilibili.com/video/BV1GjJK6sESN) | 中文主阵地发布版 |
+| [YouTube 视频](https://www.youtube.com/watch?v=RSuxSb8KbSA) | YouTube 发布版 |
 | [PDF 课件](./ai-stack-001-mlops-llmops-genaiops.pdf) | 跟随视频主线整理的公开课件 |
 | [AI Stack 主图](./ai-stack-overview.png) | 这一期用到的全景图 |
 | [References](./references.md) | 本期参考资料和延伸阅读 |

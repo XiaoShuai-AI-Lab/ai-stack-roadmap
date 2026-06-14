@@ -23,9 +23,9 @@
 
 ## 最新一期
 
-| 期数 | 主题 | 资料 |
-| --- | --- | --- |
-| 001 | [MLOps -> LLMOps -> GenAIOps](./episodes/001-mlops-llmops-genaiops/README.md) | [PDF](./episodes/001-mlops-llmops-genaiops/ai-stack-001-mlops-llmops-genaiops.pdf) · [References](./episodes/001-mlops-llmops-genaiops/references.md) |
+| 期数 | 主题 | 视频 | 资料 |
+| --- | --- | --- | --- |
+| 001 | [MLOps -> LLMOps -> GenAIOps](./episodes/001-mlops-llmops-genaiops/README.md) | [B站](https://www.bilibili.com/video/BV1GjJK6sESN) · [YouTube](https://www.youtube.com/watch?v=RSuxSb8KbSA) | [PDF](./episodes/001-mlops-llmops-genaiops/ai-stack-001-mlops-llmops-genaiops.pdf) · [References](./episodes/001-mlops-llmops-genaiops/references.md) |
 
 这一期主要讲三代 AI 工程化方法的演进：
 
