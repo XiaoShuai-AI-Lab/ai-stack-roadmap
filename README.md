@@ -2,7 +2,7 @@
 
 [English](./README.en.md)
 
-这里是 **小帅AI Lab** 的 AI Stack 系列资料库。
+这里是 **小帅AI实验室** 的 AI Stack 系列资料库。
 
 这个系列想回答一个很朴素的问题：
 
@@ -68,8 +68,8 @@ episodes/
 
 后面如果内容多起来，再增加路线图、专题图、英文字幕、文章版讲义等内容。现在先不把结构做重，先让每一期资料都好找、好读、好引用。
 
-## 关于小帅AI Lab
+## 关于小帅AI实验室
 
-小帅AI Lab 关注 AI 工程化、AI 平台、Agent / RAG / Workflow、模型服务、评测、可观测性、数据与 AI Infra。
+小帅AI实验室关注 AI 工程化、AI 平台、Agent / RAG / Workflow、模型服务、评测、可观测性、数据与 AI Infra。
 
 不聊虚的，尽量把 AI 落地背后的真实工程世界讲清楚。

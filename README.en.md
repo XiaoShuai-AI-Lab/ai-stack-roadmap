@@ -2,7 +2,7 @@
 
 [中文](./README.md)
 
-This is the public course resource hub for **XiaoShuai AI Lab**.
+This is the public course resource hub for **XiaoShuai AI Lab (小帅AI实验室)**.
 
 The series follows one practical question:
 
@@ -68,4 +68,4 @@ More maps, diagrams, notes, subtitles, or article-style materials can be added l
 
 ## About
 
-XiaoShuai AI Lab focuses on AI engineering, AI platforms, Agent / RAG / Workflow systems, model serving, evaluation, observability, data, and AI infrastructure.
+XiaoShuai AI Lab (小帅AI实验室) focuses on AI engineering, AI platforms, Agent / RAG / Workflow systems, model serving, evaluation, observability, data, and AI infrastructure.
