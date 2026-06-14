@@ -1,75 +1,41 @@
 # Episode 001: MLOps -> LLMOps -> GenAIOps
 
-[中文](./README.zh-CN.md)
-
-## Core Question
-
-What is the difference between MLOps, LLMOps, and GenAIOps?
-
-## One-Sentence Judgment
-
-The evolution from MLOps to LLMOps and GenAIOps is not only a naming change. It
-is a widening of the production object: input, processing, output, feedback, and
-governance variables all become broader and less deterministic.
-
-## Mental Model
-
-Use one product as the running example:
+这一期讲 AI 工程化和平台化的三个阶段：
 
 ```text
-enterprise AI conversation product
+MLOps -> LLMOps -> GenAIOps
 ```
 
-Then compare three generations by the same pipeline:
+它们不是三个孤立名词，而是同一条生产链路里，管理对象不断变宽的过程。
 
-```text
-input
-  -> processing
-  -> output
-  -> feedback
-  -> closed-loop improvement
-```
+![AI Stack Overview](./ai-stack-overview.png)
 
-## Current Public Artifacts
+## 本期资料
 
-This episode is being prepared for public release.
-
-| Artifact | Status |
+| 资料 | 说明 |
 | --- | --- |
-| Video link | To be added after publishing |
-| Slide PDF | To be exported after final recording |
-| Key diagrams | To be exported as clean PNGs |
-| References | Draft available in [`references.md`](./references.md) |
-| Glossary | Draft available in [`glossary.md`](./glossary.md) |
+| [PDF 课件](./ai-stack-001-mlops-llmops-genaiops.pdf) | 跟随视频主线整理的公开课件 |
+| [AI Stack 主图](./ai-stack-overview.png) | 这一期用到的全景图 |
+| [References](./references.md) | 本期参考资料和延伸阅读 |
 
-Do not publish final PDFs or diagrams before adding XiaoShuai AI Lab
-watermarks. See the repository-level [Publishing Policy](../../PUBLISHING_POLICY.md).
+## 一句话总结
 
-## Planned Files
+MLOps 主要让模型生产可控；LLMOps 把提示词、RAG、工具、Trace 和评测纳入应用运行治理；GenAIOps 进一步把多模态、Agent、生成资产、安全和反馈纳入生产体系。
+
+## 这一期怎么拆
+
+| 阶段 | 管什么 | 典型问题 |
+| --- | --- | --- |
+| MLOps | 模型生产闭环 | 实验成功之后，怎么稳定上线、监控、回流？ |
+| LLMOps | 大模型应用运行闭环 | Prompt、RAG、工具和 Trace 改了，怎么评测和回放？ |
+| GenAIOps | 生成式系统生产闭环 | 多模态、Agent、生成资产和安全治理怎么一起管理？ |
+
+## 推荐看法
+
+不要先背定义，先看控制对象：
 
 ```text
-slides/
-  MLOps_LLMOps_GenAIOps.pdf
-
-diagrams/
-  mlops-production-loop.png
-  llmops-application-loop.png
-  genaiops-production-loop.png
-  ai-stack-position-map.png
-
-notes/
-  key-takeaways.zh-CN.md
+Input -> Processing -> Output -> Feedback
 ```
 
-## What Viewers Should Take Away
-
-1. MLOps mainly manages the model production lifecycle.
-2. LLMOps expands the object to prompt, retrieval, tools, context, traces, and
-   application behavior.
-3. GenAIOps expands further into multimodal generation, policy, safety,
-   workflow, and production evidence chains.
-4. The stable comparison axis is:
-
-   ```text
-   input -> processing -> output -> feedback -> closed loop
-   ```
+三代 Ops 的核心差异，就是这条闭环里每一环要管理的变量越来越多。

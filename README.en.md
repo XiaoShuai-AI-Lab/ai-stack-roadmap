@@ -2,18 +2,15 @@
 
 [中文](./README.md)
 
-This is the public course and artifact hub for **XiaoShuai AI Lab**.
+This is the public course resource hub for **XiaoShuai AI Lab**.
 
-The goal is not to collect AI buzzwords. The goal is to trace real production
-paths and make modern AI systems easier to understand:
+The series follows one practical question:
 
-```text
-application
-  -> agent / RAG / workflow
-  -> model serving / evaluation / observability
-  -> data / training / model production
-  -> AI infrastructure / cloud native / GPU clusters
-```
+> What does it take to move an AI capability from a demo into a real production system?
+
+Instead of collecting buzzwords, the course traces the production path: how applications connect to models, how RAG and agents enter the system, and where evaluation, observability, cost, data, and AI infrastructure fit.
+
+![AI Stack Overview](./episodes/001-mlops-llmops-genaiops/ai-stack-overview.png)
 
 ## Links
 
@@ -26,46 +23,49 @@ application
 
 ## Latest Episode
 
-| Episode | Topic | Question | Artifacts | Status |
-| --- | --- | --- | --- | --- |
-| 001 | [MLOps -> LLMOps -> GenAIOps](./episodes/001-mlops-llmops-genaiops/README.md) | Why did AI production practices evolve across three generations? | PDF / references / main visual in preparation | Preparing |
+| Episode | Topic | Materials |
+| --- | --- | --- |
+| 001 | [MLOps -> LLMOps -> GenAIOps](./episodes/001-mlops-llmops-genaiops/README.md) | [PDF](./episodes/001-mlops-llmops-genaiops/ai-stack-001-mlops-llmops-genaiops.pdf) · [References](./episodes/001-mlops-llmops-genaiops/references.md) |
 
-Core line:
+Episode 001 explains the evolution across three production disciplines:
 
-> From MLOps to LLMOps and GenAIOps, the managed object keeps getting wider:
-> input, processing, output, feedback, and governance variables all expand.
+```text
+MLOps
+  model production: data, training, evaluation, deployment, monitoring, feedback
 
-## What This Repo Publishes
+LLMOps
+  LLM application runtime: prompt, RAG, tools, trace, evaluation, cost
 
-This repository grows by published episodes first. Each episode may include:
+GenAIOps
+  generative system production: multimodal inputs, agents, generated assets, safety, governance, feedback
+```
 
-| Artifact | Purpose |
-| --- | --- |
-| Slide PDF | Main public review material |
-| Main visual | A shareable diagram that can stand outside the slide deck |
-| References | Source links and short notes, not copied third-party content |
-| Key takeaways | Optional concise review notes |
+Main idea:
 
-Recording PPTX files are not published by default. A cleaned editable PPTX may
-be released only after notes, hidden slides, local paths, and rights-sensitive
-materials are removed.
+> From MLOps to LLMOps and GenAIOps, the managed production object keeps getting wider.
 
-## Publishing Rules
+## How To Use This Repo
 
-- Chinese-first for teaching, English for global discovery.
-- Source-backed, not link dumps.
-- Visual and operational, not only conceptual.
-- No private notes, raw recordings, cookies, tokens, unclear copyrighted clips,
-  or copied third-party article dumps.
-- Public PDFs and self-made diagrams include subtle XiaoShuai AI Lab
-  attribution.
-- Third-party images use source labels instead of XiaoShuai AI Lab ownership
-  watermarks.
+1. Watch the video first.
+2. Use the PDF to review the main storyline.
+3. Use `references.md` to trace sources and further reading.
+4. Use the AI Stack overview image when you only need the big picture.
 
-See [Publishing Policy](./PUBLISHING_POLICY.md) for details.
+## Structure
+
+The repository stays intentionally lightweight at the beginning:
+
+```text
+episodes/
+  001-mlops-llmops-genaiops/
+    README.md
+    ai-stack-001-mlops-llmops-genaiops.pdf
+    ai-stack-overview.png
+    references.md
+```
+
+More maps, diagrams, notes, subtitles, or article-style materials can be added later when the series grows.
 
 ## About
 
-XiaoShuai AI Lab focuses on AI engineering, AI platforms, Agent / RAG /
-workflow systems, model serving, evaluation, observability, data, and AI
-infrastructure.
+XiaoShuai AI Lab focuses on AI engineering, AI platforms, Agent / RAG / Workflow systems, model serving, evaluation, observability, data, and AI infrastructure.

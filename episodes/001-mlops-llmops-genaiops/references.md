@@ -1,41 +1,53 @@
 # References
 
-This page will keep public, source-safe references for Episode 001.
+本页整理 Episode 001 用到的公开参考资料和延伸阅读。这里不复制第三方全文，只保留公开链接和简短说明，方便继续查证。
 
-## Source Policy
+## AI Stack / AI Infrastructure
 
-References should be:
+- [IBM: What is an AI stack?](https://www.ibm.com/think/topics/ai-stack)
+  用于校验 AI Stack 不是单一工具层，而是从基础设施、数据、模型到应用的组合。
 
-- public URLs;
-- primary sources when possible;
-- short notes instead of copied full text;
-- mapped to the episode section where they are useful.
+- [IBM: What is AI infrastructure?](https://www.ibm.com/think/topics/ai-infrastructure)
+  用于区分窄义 AI Infrastructure 和更宽的 AI Stack / AI Platform。
 
-Do not include:
+- [Menlo Ventures: The Modern AI Stack](https://menlovc.com/perspective/the-modern-ai-stack-design-principles-for-the-future-of-enterprise-ai-architectures/)
+  用于参考企业 AI 架构中模型、数据、编排、应用和治理的分层方式。
 
-- private chat logs;
-- cookies, tokens, or account-specific captures;
-- paid full text;
-- copyrighted copied article dumps;
-- raw recording files;
-- unlicensed video clips.
+- [a16z: Emerging Architectures for LLM Applications](https://a16z.com/emerging-architectures-for-llm-applications/)
+  用于理解 LLM 应用里的编排、检索、工具调用、监控和评测组件。
 
-## Current Reference Buckets
+## MLOps
 
-### Conceptual framing
+- [MLOps: Overview, Definition, and Architecture](https://arxiv.org/abs/2205.02302)
+  用于参考 MLOps 生命周期和模型生产闭环。
 
-- MLOps lifecycle and model production loop.
-- LLMOps runtime variables: prompt, context, retrieval, tools, trace, evaluation.
-- GenAIOps multimodal production and governance.
+- [Microsoft Azure Well-Architected Framework: MLOps and GenAIOps for AI workloads](https://learn.microsoft.com/en-us/azure/well-architected/ai/mlops-genaiops)
+  用于参考 DataOps、MLOps、GenAIOps 在 AI 工作负载中的关系。
 
-### Visual references
+## LLMOps
 
-- MLOps production loop diagrams.
-- LLMOps application loop diagrams.
-- GenAIOps production and governance diagrams.
-- AI Stack layer maps.
+- [Microsoft Learn: LLMOps with prompt flow and Azure DevOps](https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/how-to-end-to-end-azure-devops-with-prompt-flow?view=azureml-api-2)
+  用于参考提示词、评测、部署和持续迭代如何进入工程流程。
 
-### Episode-specific notes
+- [ZenML: MLOps vs LLMOps](https://www.zenml.io/blog/mlops-vs-llmops)
+  用于参考 LLMOps 相比 MLOps 新增的 Prompt、Embedding、Vector Index、Guardrail、成本和评测变量。
 
-The cleaned public reference list will be added after final video publication.
+## GenAIOps
 
+- [Google Cloud: GenAIOps, Operationalize Generative AI - A Practical Guide](https://medium.com/google-cloud/genaiops-operationalize-generative-ai-a-practical-guide-d5bedaa59d78)
+  用于参考生成式 AI 生产体系中的 PromptOps、RAGOps、AgentOps、评测、监控和治理。
+
+- [The GenAIOps Framework](https://genaiops.ai/the-genaiops-framework)
+  用于参考 GenAIOps 作为生成式 AI 运营框架时覆盖的组织、流程和系统边界。
+
+## Serving / Runtime
+
+- [vLLM Documentation](https://docs.vllm.ai/)
+  用于参考大模型服务、推理吞吐和 serving runtime。
+
+- [NVIDIA Triton Inference Server Documentation](https://docs.nvidia.com/deeplearning/triton-inference-server/)
+  用于参考模型服务和推理服务基础设施。
+
+## 参考说明
+
+本期资料会优先采用官方文档、论文和头部机构公开资料。博客和社区文章主要用于帮助理解行业表达方式，不作为单一权威来源。
