@@ -47,7 +47,6 @@ MLOps、LLMOps、GenAIOps 到底有什么区别？
 | 视频链接 | 发布后补充 |
 | PPT PDF | 录制版稳定后导出 |
 | 核心图 PNG | 从最终 PPT 中导出公开安全版 |
-| 清洁版口播稿 | 需要去掉录制提示和内部备注 |
 | Reference | 见 [`references.md`](./references.md) |
 | 术语表 | 见 [`glossary.md`](./glossary.md) |
 
@@ -68,7 +67,6 @@ diagrams/
 
 notes/
   key-takeaways.zh-CN.md
-  speaker-notes-clean.zh-CN.md
 ```
 
 ## 观众应该带走什么

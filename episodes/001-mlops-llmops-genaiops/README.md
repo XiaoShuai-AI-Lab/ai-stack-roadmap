@@ -39,7 +39,6 @@ This episode is being prepared for public release.
 | Video link | To be added after publishing |
 | Slide PDF | To be exported after final recording |
 | Key diagrams | To be exported as clean PNGs |
-| Speaker notes | To be cleaned before publishing |
 | References | Draft available in [`references.md`](./references.md) |
 | Glossary | Draft available in [`glossary.md`](./glossary.md) |
 
@@ -60,7 +59,6 @@ diagrams/
 
 notes/
   key-takeaways.zh-CN.md
-  speaker-notes-clean.zh-CN.md
 ```
 
 ## What Viewers Should Take Away
